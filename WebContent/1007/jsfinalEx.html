@@ -1,0 +1,70 @@
+﻿<!-- 외부 CSS파일 링크하는 것 적합한 위치에 알아서 링크할 것.
+     이미지 표시 주석처리되어있는 부분에 img태그 이용하여 표시.(ppt의 화면 보고 넣어볼것. 크기지정 따로 하지 않아도 됨)
+	현재의 파일은 구매하기 표시까지만 되어있음. 구매하기를 눌렀을 때 대화상자 표시가 나오도록 하시기 바랍니다.(자바스크립트 사용)
+	자바스크립트의 선언위치가 어디인지 알아서 선언하고, 실행을 위해 필요한 구문을 함수형태로 만들고, 
+	alert () 함수 사용. 그리고 구매하기를 눌렀을 때 새롭게 추가된 함수가 호출되도록 완성하기
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<title>자바스크립트로 알림메시지 띄우기</title>
+	
+	<link rel="stylesheet" type="text/css" href="jsfinalEx.css"></link>
+	
+	<script>
+	
+		
+	
+		function soldOut_alert() {
+			alert("현재 상품이 품절되었습니다. 죄송합니다.");
+		}
+	
+	</script>
+	
+ </head>
+
+ <body>
+     <div>
+      <h1> 2016년 햇대추 판매 </h1>
+      <h2> 제품 리스트 </h2>
+      <div class="white_table">
+        <table>
+          <thead>
+            <tr>			
+              <th>
+		<!-- 이 부분에 img 태그를 이용하여 다운로드한 script1.jpg 파일 표시 -->
+		<img src="jscript1.jpg" alt="jscript1"></img>
+		<br>2016년 햇 대추 1kg <br>
+                <span>20,000원</span>
+              </th>
+              <th>
+		<!-- 이 부분에 img 태그를 이용하여 다운로드한 script1.jpg 파일 표시 -->
+		<img src="jscript1.jpg" alt="jscript1"></img>
+		<br>(특품)2016년 햇 대추 1kg <br>
+                <span>27,000원</span>
+              </th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr class="pricing_btn">
+              <td><a class="the_button" href="#" onclick="javascript:soldOut_alert()">구매하기</a></td>
+              <td><a class="the_button" href="#" onclick="javascript:soldOut_alert()">구매하기</a></td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr class="odd">
+              <td>사이즈: 24~36cm</td>
+              <td>사이즈: 28~30cm</td>
+            </tr>
+            <tr>
+              <td>용도: 대추차, 대추술, 약재용</td>
+              <td>용도: 폐백용, 재수용, 다과용</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div> 
+ </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+	margin:30px;
+	font:1em "맑은 고딕",Cambria,Georgia,sans-serif;
+	background:lightgray;
+}
+p {
+	line-height:1px;
+	font-weight:bold;
+}
+p.title {
+	text-align:center;
+}
+img.title {
+	width:400px;
+}
+table {
+	width:100%;
+}
+th {
+	font-size:22px;
+	padding:20px 10px;
+}
+th img {
+	width:300px;
+}
+th,td {
+	text-align:center;
+	 margin:20px;
+	background:#eee;
+	padding:10px;
+}
+tr.odd td,tfoot tr td {
+	background:#e9e9e9;
+}
+span {
+	font-size:20px;
+	color:#0099ff;
+}
+p.contents {
+	font-size:30px;
+	color: black;
+}

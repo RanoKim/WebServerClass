@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<title>문제13</title>
+	<script language=javascript>
+		
+	$(document).ready(function(){
+		
+	    $("button").click(function(){
+	    	var input = $("input").val();
+	    	
+	    	if(input < 1 || input > 10 || isNaN(input)) {
+	    		alert("1~10 사이의 정수를 입력하세요!!");
+	    		$("input").val("");
+	    	} else {
+	    		alert("입력값 : " + input);
+	    	}
+	    });
+	    
+	});
+	
+	</script>
+</head>
+<body>	
+	
+	1 ~ 10 사이의 정수를 입력하세요 : <input><button>확인</button>
+
+</body>
+</html>

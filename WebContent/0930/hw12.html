@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>문제12</title>
+	
+</head>
+<body>
+<!--  
+	<button onclick="myFunction()">시작</button>
+	<p id="result"></p>
+	
+	<script>
+	
+	function myFunction() {
+	    var person = prompt("구구단 입력", "");
+	    
+	    var result = "";
+    	
+    	for(var i=1; i<10; i++) {
+    		result += input + " * " + i + " = " + (input*i) + "\n"; 
+    	}
+    	
+    	document.getElementById("result").innerHTML = result;
+	}
+
+	
+	
+
+	</script>-->
+	
+
+<button onclick="myFunction()">시작</button>
+
+<p id="result"></p>
+
+<script>
+function myFunction() {
+    var input = prompt("구구단 입력", "");
+    
+    var result = "";
+	
+	for(var i=1; i<10; i++) {
+		result += input + "*" + i + "=" + (input*i) + " \ "; 
+	}
+    
+	document.getElementById("result").innerHTML = result;
+	
+}
+</script>
+</body>
+</html>

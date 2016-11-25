@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Car Table속성</title>
+<style>
+	body {
+		font-family: "맑은 고딕","돋움",sans-serif;
+	}
+	
+	table {
+		text-align: center;
+		empty-cells: hide;
+		border-spacing: 10px;
+	}
+	th, td{ 
+		border-radius: 10px;
+		border: 1px solid #666600;
+		padding: 5px 7px;
+		color: #ffffff;
+	}
+		
+	caption {
+		color: #ffffff;
+	}
+	caption.ca2 {
+		padding: 10px;
+		border-radius: 10px;
+		color: #ffffff;
+		background-color: #666600;
+	}
+	
+	th.th2 {
+		background-color: #444422;
+		color: #ffffff;
+	}
+	td {
+		color: black;
+	}
+	
+	tr.tr2 {
+		background-color: #444422;
+	}
+	td.last {
+		padding-top: 7px;
+		padding-bottom: 7px;
+		color: #ffffff;
+	}
+	
+</style>
+</head>
+<body>	
+	<table id="table2">
+		<caption class="ca2">렌터카 요금표</caption>
+		<tr>
+			<th class="th2">차종</th>
+			<th class="th2">24시간</th>
+			<th class="th2">48시간</th>
+			<th class="th2">72시간</th>
+			<th class="th2">추가요금</th>
+		</tr>
+		<tr>
+			<td>SM3</td>
+			<td>45,000</td>
+			<td>90,000</td>
+			<td>135,000</td>
+			<td>6,000</td>
+		</tr>
+		<tr>
+			<td>모닝</td>
+			<td>42,000</td>
+			<td>84,000</td>
+			<td>126,000</td>
+			<td>6,000</td>
+		</tr>
+		<tr>
+			<td>쏘울</td>
+			<td>61,000</td>
+			<td>122,000</td>
+			<td>183,000</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>윈스톰</td>
+			<td>94,000</td>
+			<td>188,000</td>
+			<td>282,000</td>
+			<td></td>
+		</tr>
+		<tr class="tr2">
+			<td colspan="5" class="last">제주 5월 기준, 추가 요금은 시간당입니다.</td>
+		</tr>
+	</table>
+</body>
+</html>

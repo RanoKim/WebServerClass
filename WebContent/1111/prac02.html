@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style>
+		body {
+			margin: 30px;
+			font: 1em "맑은 고딕", Cambria, Georgia, sans-serif;
+		}
+		h1, h2 {
+			color: #00009E;
+		}
+		.fl {
+			color: #FF00FF;
+			font-weight: bold;
+			font-size: 30px;
+		}
+		
+		div {
+			margin: 20px 10px;
+			padding: 20px;
+			text-align: justify;
+		}
+		
+		div {
+			/* div 를 3개 컬럼으로 구분 */
+			-o-column-count: 3; /* 오페라 */
+			-moz-column-count: 3; /* 파이어폭스 */
+			-webkit-column-count: 3x; /* 크롬, 사파리 */
+			column-count: 3;
+			
+			/* 컬럼 사이에 가로 너비 여백을 40px */
+			-o-column-gap: 40px; /* 오페라 */
+			-moz-column-gap: 40px; /* 파이어폭스 */
+			-webkit-column-gap: 40px; /* 크롬, 사파리 */
+			column-gap: 40px;
+			
+			/* 컬럼 사이의 가로 너비 여백에 2px 점선, 회색의 구분선 */
+			-o-column-rule: 2px dotted gray; /* 오페라 */
+			-moz-column-rule: 2px dotted gray; /* 파이어폭스 */
+			-webkit-column-rule: 2px dotted gray; /* 크롬, 사파리 */
+			column-rule: 2px dotted gray;
+		}
+		div image {
+			float: left;
+			margin-left: 200px;
+			margin-bottom: 200px;
+		}
+	
+	</style>
+</head>
+<body>
+	<h1></h1>
+	<h3></h3>
+	<!-- 3개의 컬럼으로 구분된 <div> 영역을 삽입 -->
+	<div id="div1">
+		<img src="./imgs/wordcss3_bg.jpg">
+		<span class="fl">A</span> sdfsdfsdfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbb
+	</div>
+	<br>
+	<div id="div2">
+		<span class="fl">K</span> sdfsdfsdfsdfsdfsdfsdffsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbbfsdfsdfsdfsdfaaaaaabbbbbbbbb
+	</div>
+</body>
+</html>

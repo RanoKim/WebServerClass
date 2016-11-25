@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>a Tag 책갈피</title>
+
+<style type="text/css">
+	body {
+		margin-top: 20pt;
+		font-family: Times, serif;
+		font-size: 12pt;
+		background-color: #332B33;
+	}
+	.main {
+		float: right;
+		color: #FFFFFF;
+	}
+	.contents {
+		margin: 20px;
+		width: 700px;
+		text-align: justify;
+	}
+	
+	a {
+		text-decoration: none;
+		color: #eee;
+	}
+	.link {
+		color: #eee;
+		float: left;
+	}
+	.link ol {
+		font-size: 18px;
+	}
+	.link ol li {}
+	.link ol li ol {
+		list-style-image: url("./imgs/list_icon.gif");
+		padding: 5px 0 5px 18px;
+		font: 10px;
+	}
+	.link ol li ol li {
+		color: #bfe1f1;
+		height: 15px;
+		margin-left: 10px;
+	}
+</style>
+
+</head>
+<body>
+
+	<div class="link">
+		<ol>
+			<li>적색 채소
+				<ol>
+					<a href="#tomato"><li>토마토</li></a>
+					<li>고추</li>
+					<li>적색피망</li>
+				</ol>
+			</li>
+			<li><a href="#yellow">노란 채소</a>
+				<ol>
+					<li>단호박</li>
+					<li>호박</li>
+					<li>노란파프리카</li>
+				</ol>
+			</li>
+			<li><a href="#green">녹색 채소</a>
+				<ol>
+					<a href="#bro"><li>브로콜리</li></a>
+					<li>오이</li>
+					<li>시금치</li>
+				</ol>
+			</li>
+		</ol>
+	</div>
+	<div class="main">
+	
+		<h2> 적색 채소 </h2>
+		<p class="contents" id="red">
+		<img src="./imgs/red1.jpg"> <img src="./imgs/red2.jpg"> <br>
+		토마토 토마토 토마토 토마토 토마토 토마토 
+		<br>
+		토마토 토마토 토마토 토마토 토마토 토마토 
+		<br>
+		토마토 토마토 토마토 토마토 토마토 토마토 
+		<br><br><br><br><br><br>
+		토마토 토마토 토마토 토마토 토마토 토마토
+		</p>
+		
+		<h2> 노란 채소 </h2>
+		<p class="contents" id="yellow">
+		<img src="./imgs/yellow1.jpg"> <img src="./imgs/yellow2.jpg"> <br>
+		단호박 단호박 단호박 단호박 단호박 단호박 
+		<br>
+		단호박 단호박 단호박 단호박 단호박 단호박  
+		<br>
+		단호박 단호박 단호박 단호박 단호박 단호박 
+		<br><br><br><br><br><br>
+		단호박 단호박 단호박 단호박 단호박 단호박 
+		</p>
+		
+		<h2> 녹색 채소 </h2>
+		<p class="contents" id="green">
+		<img src="./imgs/green1.jpg"> <img src="./imgs/green2.jpg"> <br>
+		브로콜리 브로콜리 브로콜리 브로콜리 브로콜리 
+		<br>
+		브로콜리 브로콜리 브로콜리 브로콜리 브로콜리  
+		<br>
+		브로콜리 브로콜리 브로콜리 브로콜리 브로콜리 
+		<br><br><br><br><br><br>
+		<div id="bro">브로콜리 브로콜리 브로콜리 브로콜리 브로콜리
+		</div> 
+		</p>
+		
+		
+	</div>
+
+</body>
+</html>
